@@ -1,0 +1,16 @@
+@charset "utf-8";
+body h1 {
+    color: #FF4700;
+    font-family: "ＭＳ Ｐゴシック";
+}
+.key  {
+    color: #0015FF;
+    background-color: #F0FF00;
+    font-size: x-large;
+}
+body p img {
+    border: 10px dotted #00FF15;
+}
+body {
+    background-image: url(yumekawab01_.jpg);
+}
