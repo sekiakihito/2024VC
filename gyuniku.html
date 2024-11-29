@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>gyuniku</title>
+<style type="text/css">
+
+ul.ddmenu{
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    text-align: justify;
+}
+	
+ul.ddmenu li {
+    width: 125px;
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+	
+ul.ddmenu a {
+    background-color: #FFFFFF;
+    color: #000000;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+	
+ul.ddmenu ul {
+ display: none; 
+ margin: 0px; 
+ padding: 0px; 
+ position: absolute; 
+}
+	
+ul.ddmenu a:hover {
+    background-color: #FFFFFF;
+    color: #dd0000;
+}
+ul.ddmenu li:hover ul {
+    display: block;
+}
+
+img {
+    width: 100%;
+}
+.gyuniku {
+    background-color: #FF5151;
+    float: left;
+    width: 40%;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+	
+#bigbox {
+    width: 100%;
+}
+	
+.centered-image {
+	width: 40%;
+    margin-top: 50px;
+    height: auto;
+    display: block; /* ブロック要素化 */
+    margin: 0 auto; /* 左右中央揃え */
+    text-align: center;	
+}
+</style>
+</head>
+
+<body>
+<div id="bigbox">
+	<ul class="ddmenu">
+  		<li><a href="index.html">ホーム</a></li>
+   			<li><a href="#">メニュー</a>
+      		<ul>
+        		<li><a href="gyuniku.html">牛肉</a></li>
+         		<li><a href="butaniku.html">豚肉</a></li>
+         		<li><a href="toriniku.html">鶏肉</a></li>
+      		</ul>
+   		</li>
+   		<li><a href="gaiyou.html">当店概要</a></li>
+	</ul>
+
+	<h1><img src="gyu.jpg" class="centered-image" alt="タイトル画像"></h1>
+	
+	<div class="gyuniku"><img src="koudai_karubi.jpg" alt="肉画像">
+		<h2>工大カルビ</h2>
+		<p>骨と骨の間の旨味の詰まった部位を丁寧にカット</p>
+	</div>
+	<div class="gyuniku"><img src="karubi.jpg"　alt="肉画像">
+		<h2>カルビ</h2>
+		<p>牛肉のうまみ、甘味と香りが楽しめます。最も人気のある定番メニューのひとつ。</p>
+	</div>
+	<div class="gyuniku"><img src="harami.jpg"　alt="肉画像">
+		<h2>ハラミ</h2>
+		<p>国民のアイドル！お店一押し</p>
+	</div>
+</div>
+</body>
+</html>
+
+
